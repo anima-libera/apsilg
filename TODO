@@ -1,0 +1,50 @@
+
+#### APSILG stands for "APSILG Particle System Interaction Laws Generator" ####
+
+angle laws toggle
+speed laws toggle
+sometimes A don't react to B at all and B fears to be near A
+interaction law type changing (with toggle)
+randomize pos and types
+randomize colors
+randomize rules
+randomize all
+gui
+type ratios when randomizing types setting
+bg color setting
+bg fade speed setting
+change particle number
+change type number
+save a number of rule sets to allow going back to previous rule sets
+save rule set to a file
+load rule set from a file
+wall settings like barrier, warp, force field
+left/right wall settings independant from top/bottom wall settings
+gravity setting (towards bottom) and gravity sensibility for each type
+friction for each type
+find what to do with the radius
+fps
+vsync/wait setting
+fullscreen setting
+save the full app state when closing and load it when re-opening (session)
+save and load sessions from files
+antialiasing setting
+allow to change how the generator works
+file save and load generator settings (with nice syntax for writing it by hand)
+allow the generator to sometimes break all its limits
+find and add other cool laws and properties (with settings)
+find a good licence (maybe MIT)
+put dat fat boi on github
+enhance the bonk against the walls ( \_/ -> \/ )
+interact with the mouse
+add the alpha color component to particle colors (but rand to 1.0 very often)
+add the none particle type (0) (full transparent, don't interact)
+make type changing smooth (law for each type transition) (int laws are dom type)
+make disappearing particles turn type 0 before
+speed factor and number of inter per frame settings
+part tail and number of vertices setting
+make _comp.py add the shader source codes into the binary executable
+add a button to produce files that contain the embedded shader source codes
+enhance the quality and readability of _comp.py, especially the src insertion
+do something with the main parameters
+fix the rg floating point exceptions when badly used
